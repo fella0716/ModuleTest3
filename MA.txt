@@ -1,0 +1,28 @@
+1. Which control flow components exec for each row in data flow task ---for each container
+2. if we create a temp table using execute sql task and we want to use same ssis package what is the ttype of the connection we used--- retain same connection     
+3. which of the following is not available in ssis data flowtask--- script task
+4.   Which destination is used to store the meta data -- raw file
+5.which types of files format  are allowed in ssis --- all the above
+6. full row history in scd--- type 2 
+7.lookup transformation in ssis which cache mode is used -- full cache
+8.ssrs--- valid datatypes in sql server date time timedate datetime
+9.select customerid from sales.Customer where territoryId < > ANY (Slect territoryID from sales.salesperson)--------- customerid which are not equal to territory id in salesperson
+10.consider an emp table empid ,lastname , first name,title , which will retrive all details n whos  title "Jenet" ---------- select * from emptable where title in(select title from emptable where name = "janet")
+11.consider a data set with fields regioncountry ,regncode, territory  -------------format
+12.regarding preview mode n design mode is incorrect --- 2 in design mode we cn do headers 
+13. MAx no.of data sets in ssrs report -- no limit
+14.feature of ssrs are used while creating a 
+15.In ssrs which of the following components are used for grouping the cvalues -- categeory axis
+16. Which of d following expression parameter is used to retrieve department value --- PARAMETERS(Department.VALUE)
+17.empno,empname ,sal ---- LTRIM
+18.IN SSRS which function is usd to display change the format of date n time ----- FORMAT
+19.which status mechanism  ssrs used to deploy reports ------ sql server
+20. UPPER(SUBSTRING(NAME,1,1)!="A" ---- expression not returns if the first character of the expression consists of A or a
+21. Logical operator which displays 2000 to 10000 --- between
+22. what does @@@ error store ------- status of last sql statement
+23. data regions can  --------matrix
+24. A line chart to coloumn chart ----right click and change chart type
+25.what property is set
+26. in ssrs user wants to diplay current  userid --- drag a text box (1 & 3)
+27.ldap authentication ,,,, windows
+28.

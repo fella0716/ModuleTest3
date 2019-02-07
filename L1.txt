@@ -1,267 +1,180 @@
-1)lookup in faltfile can be done by using--------- cache transformation.
-2)if package fails-----:3types  1:constraint
-3)views in bi---------report view,data view&relationship view.
-4)single and cross filter in pbi
-5)hierarachy are done in pbi-----report view
-6)many to many is not supported in pbi.
-7)type of filters:report level,page level
-8)how to publish a report:my workspace.
-9)how to create a dashbboard:pin it
-10)if u clickon the dashboard a reaport then: redirects the from which visulaization is pinned.
-11)how to share:publish to web,emebeded,
-12)in my workspace __>reports__>ellipse we can share dashboard
-13)how to create a coloumn:addcoloumn
-14)dax:data analysis expression.
-15)options for chackpoints:it exist,never,always
-16)bulk insert task restrictions:it shld be a text file and we cannot do transformations into it.
-17)ftp task:we can  copy the files,delete the files,move file.
-18)if want to add one quert to another quert :append query
-19)if we want the coloumn into two:split by delimited or split by no of charcaters click on a option like left most,rightmost,at each occurances.
-20)if a output has all similar data why:because the table has no relationship between them .
-21)use of parameters in pbi:we can fillter the value.
-22).pbit is a extension of a template or parameter wwhich we load
-23).pbi is  a extension for a project. 
-24)types of containers:for.for each,sequence containers,task host conatiner.
-25)import and direct query and restrictions of direct query.
-26)if there are null values in pbi we have to use:fill operation above or below.
-27)what we need to use to schedule our reports:gateway
-28)pwersonal gateway,simple gateway :types
-29)instead of sort,aggregate transformation is performed(inorder to remove duplicates)
-30)difference between database and datawarehouse and also similarity
-31)olap?,sql server comes under oltp or olap?--->oltp to capture day to day transcations .
-32)Dimension modelling,er diagrams
-34)what are the differnt steps used to create a dimension modelling?-->conceptual schema,logical schema,physical schema
-35)is physical schema is data specific or data genric?-->data specific
-36)logical model is data base independent,physical is dependent
-37)what is queue?-->representaion of multiple dimensions.
-38)diff btw olap and oltp
-39)oltp often users complex queries involving aggregation true or false-->true.
-40)olap retruns 
-41)oltp manages current data -->true
-42)oltp is an application oriented database design and olap is subjected oriented-->true.
-43)which activity transform 
-44)when we want MR and MRs data format-->standardising data is an answer
-45)who is responsible for moving files-->configuration manager
-46)types of testing
-47)diff btw functional and non functional testing
-48)stress and recovery and volune testing is an example for?--?non functional testing
-49)how to declare the cursuor in sql server?-->declare cursorname cursorfor select statement 
-40)wat is forcusrsor?--
-41)how cursuor works-->declare,fetch,open,close
-42)created a emp table and i wnat toa add one coloumn i.e,basic pay which accepts btw 2000-5000?-->alter table tablename 
-43) which control flow component is used for to excute each row?--> foreach loop
-44)which of the sdc will mation full row wise history?-->type2
-45)which sdc maintain partial history-->type3
-46)in lookup table when we use the cache mode ?
-47)to remove duplicate values--->sort
-48)in pivot table what are the keys we have?-->set key,pivot value,pivot value.
-49)what are the diff deployemnt models in ssis?-->package and project
-50)diff values u can set for checkpint usage property--->never, ifexisit,always
-51)which are the componets in ssis architecture-->data flow engine,integartion service,
-integration service object model,integration service services,integration service ru time executable
-52)what are the default vales for max concurrent excutables?==>-1
-53)what is merge and merge join
-54)evaluating the data and applying data conversions can we do in ssis?--.yes
-55)loading subset of data in different destinations?-->multicast
-56)which destination  stores the metadata-->raw file
-57)what are the sources that u can take in the flatfile---->tab delimited,fixed with,ragg,
-            POWERBI
+L1-75
+16- M1 ( 9 - sql server,4-unix,3-python)
+20-M2(SSiS,ETL basics, data modelling)
+14 - M3 (SSRS)
+20- power BI
+5- SE,QPA- 2qstns
 
-56)i want to enter the date and time in  regional setting .which of the powerbi desktop is used?-->local settings
-57) we have two queries from same database and having same queries --?append query
-58)multiple delimiters is ans
-59)how to replacea null value above or below/-->fillup and fill down
-60) we have 4 query and we r creating one more query 5th query which query will be appended after the 3rd query
-    so when we refresh which query will get refreshed?-->3 and 5 will get refreshed.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
- 61)two charts when u select a mark on fst chart and second chart shld not change-->edit interactions from format
-62)which is the default visulaization for numeric field?--->stack column chart
-63)in pbi to display or analyze two measures which chart is preffered?->scatter plot.
-64)if one or many-->slicer
-65)which visulaization is not a avialbale in pbi but shld be add to custom visualization--->histogram
-66)best datatype to use currency column-->fixed decimal number
-67)what allows user to explore the design without adding the data--.templates
-68)onpreimises pbi server and publish the report to the same data server which database to use--->ssas
-69)UUPER(SUBSTRING)NAME(1,1) NOT EQUAL
-70)retain null values inn ssis is where do u find--flatfile'
-71)u can config the data siurce of reporting service 
-72)bulk insert task not avauilable in sql server 2008-->no
-73)bulk insert task can only transfer the data using txt file-->yes
-74)create atemploye sql table does transformation connection require-->fuzzylookup
- 75)extracting  few of columns have null values instad of null i want to insert  ---derived coloumn
 
- 76) which is not a default column name in fuzzy grpg-->similarity scope
- 77) in 2008 wtkind of deployment is supported-- package
- 78)which of the following is not a log provider in sql server-->registry file
-79)how to rename a file using  ssis task-->file system task
-80)how to use a lookup transformatiion in a flatfile-->full cache
+-
+1)In sql server how can we select even number of records from a table? ---> I%2==0
+2)how to create a table from exisiting table--->select * into table name from table name
+3)if i dont want to copy the data-->where1=2
+4)how to display list of databases-->execute sp_databases
+5)how many clustered index can a table have?-->1
+6)what are the diff types of sql triggers?-->dml (insert and update n delete), after trigger and insteadoff trigger,ddl,logon triggers.
+7)I've created a table with three column names i.e;id name phno i want to insert data for two coloumns how?-->insert into tablename(id,name)values(?,?) 
 
-81)merge not possible to have more than 2 input file-->yes
-82)merge requires data to be soreted-->yes
-83)how can we automate the scheduling part in ssis -->sql server agent.
-84)wt is max concurrent level package indicate-->no.of files or excutable run concurrently.
-85)full result set is not valid  an aswer
- 86)which is not a valid destination ssis in 2012-->xml.
-87)which of the are inculed in ssis--.control flow,data flow,event handlers,connection maanger,parameters
- whch of task allows to move file directory from remote server to system-------ftp task 
-    -------------ssrs------------------
+--->ER Diagrams
 
-1.which of these are valid datatype in ssrs-->date,time,datetime
-2.which data storage mechanism  does ssrs services used to deploy reports-- sql sever
-3.in ssrs whic function is used to cahnge display fromat in date time-- format func
-4.want ot remove the characters from right hand side-- rtrim
-5.in ssrs whch of the following chart component is used for grpng of numeric values in chart---category axis.
-6.wt is max num of dataset is used  in ssrs report-- no limit
-7.the default  security extension  is based on ---ldap authentication
-8.user want to dislplay the  current useerid in report header-----drag the userid box on header
-9.wt is true abt parametres in ssrs:
-parameters allows multiple values---yes
-10.how to change the line chart to column chart----rght click on chart and change chart tye 
-11.matrix a data region in ssrs is similar to cross tab  and pivot--yes
-12.which of them is not a valid phase in report life cycle---administration
-13.how to convert the feilds to uppercase in ssrs----Ucase
-14.how to fix no of rows for a report in ssrs------in groupby exppresion---cealing of row no nothing divided by 25
-15. rows shld be coloured but alternative row----IIF row no. nothing mod  by 2
-16.select empno,sal from emp where sal > all 1000,2000,3000 what is the o/p---it will display all emp whose sal is > 3000
-17.how do u write tsql query  for multi value parameter report------select * from emp where multi value IN @parameter names.
-18.ratio data in chart which chart is used to dispaly----pie chart
-19.how to display yesterday date in ssrs----date add -1
+8)OLTP(this is normalised) --- sql , OLAP -- warehouse
+9) steps in Dimension Modelling ( Dimension and fact tables are present)
+     ----> conceptual schema (d/b independent)
+     ----> logical Schema (database independent)
+     ----> Physical schema ( specific to data,data dependent)
+ 
+10) Queue - Multiple dimensions 
+11) OLAP often uses complex queries for Aggregation (True)
+12)OLTP relatively return simple records (True) (b'coz it returns history of the data)
+13) OLTP manages current data (True)
+14)OLTP - application oriented , OLAP = Subject oriented
+15)Which activity transform 
+When we want MR & Mrs from the given data --- we do standardizing the data 
+
+-------------------life cycle of data cleansing
+-------------------configuration management
+16) Who is actually responsible for moving the files across projects n all -- configurantion manager
+------------Testing
+17)Types (Unit , SYS,integration, user acceptance)
+18) Functional(Black box testing) and Non Functional(response Time) , (volume , strees , recovering testing)  
+19) How do u declare cursor in sql server --- declare cursorname cursor for select statement  
+20) decalre,open ,fetch & close --- Steps in cursor
+21)  Create an employee table i want add one coloumn say basic pay which accepts only 2000 n 5000
+
+ Alter table tablename add column columnname datatype check(btw 2000 and 5000)
 
 
 
------------------------pbi----------------------------
-
-1.to create hierechy clas---report view
-2.dax--data analyitical expres
-3.sum,sumx,sumof,calculate,is blank,
-4.diff types of joins supported in pbi---left anti,rght anti,full outter,right,left outter.
-5.how to split coloumn---right click on columnt--- split by---delimters or no.of characters
-6.while splitting a coloumn i use each occurance delimiter what happens---multiple rows will be added
-7.discoutnt and unit price . which is the best chart to compare this two data-----scatter plot
-8.if u clickon the dashboard a report then: redirects the from which visulaization is pinned.
-9.if u click on focus mode on a tile----it occupies the complete space
-10.options available in publishing ur dashboard-----export to ppt,export to excel is not available
-11.if a pbi  is considered  ur header as  a data then what to do------use frst row as a header.
-12.wt r the 2 types of context in dax-----row and filter
-13.whch is default interaction mode for pbi visualiszation------drill mode on
-14.in clusterd column chart whch dynamic reference line is not present-----linear
-15.whch of the fllwng connction mode is not present in pbi------adhoc (import,direct query,adhoc,live)
-16.hierarchy in pbi can be created only in pbi true or false---t
-17.whch of the 2 scheduled refresh are available to dadset------daily and weekly(daily,weekly,monthly)
-18.whch pbi resource allow user to use access the internet----publish to web
 
 
 
----------------SQL------------------------------
+22) Which control flow component is used for to execute each row --- For Each loop container
+23)   conditional split - yes , script task - no , Aggregate task - yes (IN data flow task)
+        
+24) RAw file ---- which destination stores the meta data
+25) In lookup table when use the cache mode 
+-- To remove duplicate values we use Sort
+-----
+26) In pivot table what are the keys we have? pivot key , pivot value , set key
+27) Deployment types - package and project
+28) Different values for check points -- never , ifexist ,always
+29) Data flw engine - yes ,Integration service - yes, integration service object model - yes, integration service services-yes --- parts in ssis architecturte
+30) default value of max conccurrent value executables-----------> -1
+31) Diff types of merge joins
+32) What is merge
+33) diff b/w merge and merge join -- sorted data used in merged 
+34) data conversions,conditional split, multicast
+35) Evaluating the data and applying data conversions can we do in ssis -- yes
+-------------power bi
+36)in the regional settings, which of power bi settings is used to change the time, date --- local settings
+37) If we have 2 queries in same datasets n both the queries have same columns then we use -- append queries
+                                                                  diff columns -- merge queries
+38) multiple delimiters --- is not valid in split by delimiters
+39) fill-- how to replace null values up and down
+40) which 3 stmts are applied areas are there in query editor window.0
+    ---
+   ---- The recorded list is based on the step that has least and effective to the step --no 
+    ---  U can 
+41) If we have 4 queries n creating a new query (Q5) n appended to Q3, then wich tables get refreshed once we refresh -- Q3 & Q5 tables get refreshed
+42)In power bi query which imports one particualr table n which u need to configure the table to appear 
+43) In power bi if there are 2 charts which the interaction need to stop is edit interactions
+44) Stack column chart ---- default  visuaization for numeric field
+45) in power bi if i hve 2 measures(sales and profit) to display  the best chart is scatter chart
+46) slicer -- if one or many 
+47) Which chart is not avaliable in power bi n must add from custom visualization ---- histogram
+48) When designing a query in query editor what is the best data type used for currency -- fixed decimal number
+49)templates are allowed to export the defn of the data without using the data
+50) which data source is used? if we create report in power bi n publish in service (we hve on premises) ----- SSAS
+51)UPPER(SUBSTRING)NAME(1,1) NOT EQUAL`
+52) To retain null values in ssis where do u find --- flatfile
+53) u can configure the data surce of  reporting service -- data reader destination
+54) Bulk insert task is not there in 2008 
+   bulk              can only transfer the data using txt file
+   """""              
+55) Which of these transformations requires connection to sql server --- fuzzy lookup
+56) extracting the data from text file r flat file source which transformation is used to replace the null values -- derived column
+57) which is not a default column name in fuzzy grpg-->similarity scope
+58) In 2008, which kind ofdevelopment is allowed -- package deployment
+59) Registery file ---- not a log provider in sql server
+60) how to rename a file using ssis task -- using file system task
+61) where do we use character map 
+    -- perform sql server string data changes such as uc n lc -- true
+62) how to use a lookup transformation in a flat file -- full cache
+63) merge -- not more than 2 input values -- true
+             data to b sorted -- true
+64) how can  v automate the schedule refresh in ssis -- sql server agent
+65) wht is the max concurrent level package indicate no.of pckge run concurrently 
+66) Which of task allows to move file directory from remote server to system-------FTP task
+67) full result set is not a valid ans 
+68) not a valid destination in 2008 in ssis --- XML destination  
+69) which are included in ssis  --- control flow,event handlers,data flow,connection mangers
 
-30)in sql server how can we select even number of records from a table?--->
-how to create a table from exisiting table--->select * into table name from table name
-31)if i dont want to copy the data-->where1=2
-32)how to display list of databases--> EXCUTE sp_databases
-33)how many clustered index can a table have?-->1
-34)what are the diff types of sql triggers?-->dml-->after trigger and insteadoff trigger,ddl,logon triggers.
-35) i ve created a table with three column names i.e;id name phno i want to insert data for two coloumns how?-->insert into tablename(id,name)values(?,?) 
+--------------- ssrs
+
+70) which are valid data types in ssrs date r time? Date - valid , datetime - valid, time - valid, timedate - invalid
+71) which data storage mechanism does ssrs service used to deploy reports - sql server
+72) format --- to format date which function is used in ssrs 
+73) to remove some of characters from right -- R trim
+74) in ssrs which chart components is used for grouping values -- categeory axis
+75) max no. of data sets in ssrs report -- no limit
+76)  the default security extension is based on -- windows authentication
+77) user want to diplay the current userid in report header -- drag a text box or drag the user id box on the column header
+78) what is true abt parameters in ssrs -- they allows multiple values - yes  ( In general we vil hve only 1 parameter)
+79) Steps to change a line to column chart --- right click --> change chart type 
+80) Matrix is a data region in ssrs is similar to cross tab and pivot ---- True
+81) which of them or not valid in report life cycle -- administration (options: authority, management , delivery , administration)
+82) how to convert fields to upper case in ssrs using which function  ..?  -- Ucase
+83) How to fix num of rows for a report in ssrs --- in group by --> ceiling of row no. nothing divided by 25
+84) create a report which dislpays alternate flashy rows --expression , IIF row no . nothing mod by 2 , white,green
+85) In a query selct empno, sal from emo where sal>all 1000,2000,3000 then the o/p returns all emps whose sal is greater than 3000 
+86) how do u write a Tsql query for multi value  parameter report   --> select ----------- in @ parameter names
+87) tell the chart type ratiodata in  bar r pie  -- pie chart
+88) How to display yesterday date in ssrs -- date add -1
+
+--------------------------power bi
+
+89) report view is used to create class hirearchy
+90) multiple field is incorrect while creating aa relationship in powerbi                                       
+91) DAX - data analytical expression
+92) sum(), sumx(),calculate(),count() are there in DAX functions , countall() is not present in the DAX Function
+93) Split coloumn -- by delimiter r by no. of characters
+94)diff types of joins -- left anti,right anti , full outer , right ,left outer
+95) which is the best chart  used to compare if i have discounted and unit price --- scatter plot
+96) if u click on the dash borad a report then it redirects to report from where it came.
+97) if u click on the focus mode on the tile - then it occupies the complete space
+98) options that are available to share dash board -- embedded link, export to pwerpoint,......,  export to excel is not available
+99)  In power bi desktop accidentaly if headers comes as data then v use - use first row as header
+100) Two types of context in in DAX-- row n filter
+101) Default interaction mode for pbi visualization --- drill mode on
+102) in clustered column chart which dynamic reference line is notpresent --- linear (options: min,max,linear, median)
+103) which of following conection is not prsent in power bi -- adhoc (options: import, direct query, adhoc,live)
+104) hirearchies are only created in power bi desktop --- true
+105) which scheduled refresh are available to data set -- daily n weekly 
+106) Which power bi  resource allows user to access the internet --- publish to web
+107) types of testing that r done as a part of system testing -- functional and performance testing 
+108) Dependent data mart -- data gets from data warehouse (after a creation of data warehouse)
+---- Independent data mart --  data gets from external application
+109) in ETL schedule wt r the factors that actual schedule is dependent on -- all of the above(load order, source,no backup n mantience is going on)
+110) father of data ware house -- Bil inmont
+111) Inmonts approach is also known Top down approach (i.e, first create data ware n then data mart)
+---- Top down appoach is easier
+112)BIl Inmonts approach is used to setting up 
+
+113)very difficult , scope control,time cinsuming , expensive--- top down approach
+114) scalability issue, no common meta data -- bottom up
+
+
+
+
+
+
+
+
+
+
  
 
 
---------------------other questions------------------------------
 
-1.types of testing taht are done as a part of system testing----------functional  and performance
-2.data mart ----subset of dataware
-3.wt is dependent data mart----data gets frm datawarehouse
-4.wt is independent data mart----data directly comes from the external application
-5.in etl schedule wt r the factores dat actually etl schedule dependent on-----all of the above(load order,source,no backup)
-6.father of datawarehouse---bill inmon
-7.inmon approach is called as----------topdown(frst build dataware and then datamart)
-8.very difficult,scope control,time consuming,expensive ----topdown approach
-9.scalability issuse ,no common meta data-------bottomup
-10.which approach is easy----topdown
-
-
-
-
-----------------python and unix-------------------
-
-1.command should not be excuted which key will u use-----------pass key
-2.to read a text from  file and every line into anew element-----read lines
-3.----are offend are used in review inspection------checklist 
-4.how do u display hidden files in unix----ls-a
-5.which of the following views can create the new hierarchy-------report view
-6. options available to publish in pbi------publish to web,publish to ppt,export to ppt,embeded share point.(**imp**)
-7.in python wt is true abt avaariable name
-a. can we have a varaiable unlimited length in python---true
-b._ and & are only two special variable available allowed---true
-c.wt are the diff ways to create  a list---tuple
-8.qms--quality management system
-9.how to print line number in unix---nl filenmae
-10$0---represents  file name
-11.$?---exit status of command
-12$#----total no of arguments passed
-13.how many positional arguments in unix----
-14.created a file and check that file belongs to which group---ls -l
-15.static testing---doing a review
-16.dynamic testing---gving diff inputd and see the ouputs i,e excute the code and test it.
-17.phases in sdlc---req analysis,planning,designing,coding,testing,installation,maintinence
-18.how to declare the consatnt variable in unix----read only
-19.print long listing of files in unix--ls-1
-20.print file names in descending order in unix---ls-r
-21.how to capture errors of a command in unix----cat f1 2>f2
-22.wt is the exit sattus of unix---$?
-23.whch command will actually copy and dispalte the data of standard input and standard output to a file----tee
-24.non fullfilment of users or customers expectation or requirements is called as----defect.
-
-
-
-
-
-module 1:16 questions
-
-9Q from sql
-3Q from python
-4Q from unix
-
-
-module 2: 20 question
-1.ssis
-2.etl
-3.datawarehouse
-
-module 3:14 questions
-1.ssrs
-
-module4:20 questions
-1.powerbi
-
-*s.e and qpa:2questions remaining questio1.
-
-----------l1----------------
-1.for each loop container
-2.if we create  a temp table in ssis package using excute sql task and want to used in data flow task whch cnnection property do we need to set?---retain same
-3.which of the following is not available in  data flown task in ssis----------script task
-4.which destination can be used to generate the measure data only file-----raw file destination
-5.which type of sdc will maintain full row wise history------type 2
-6.in lookup transformation in ssis which cahe mode should be used---------full cache
-7.which of these are valid datatypes in sql server:delete,time,timedate,datetime------time date is inavlid
-8.select customerid from sales.Customer where territoryId < > ANY (Slect territoryID from sales.salesperson)
+          
  
-                                                         --------- customerid which are not equal to territory id in salesperson 
-
-9.consider emp table with 4 fields empid,lastname,frstname,title.which is the correct query in sql server
-which will retrive all employee whose title is same as jannet--select * from emptable where title in(select title from emptable where name = "jannet") 
-10.consider a data set with fields:
-region,country region code,terittory,year,month,total   the chart is created which of these staments is cor
-11.which of the following stsmt regarding design mode and preview mode in ssrs is incoorect----                                                     
-12.what is the maximum number of datasets can be used while creating in ssrs report-------no limt
-13.which of the following features of the ssrs are  beign used while creating a    report
-14.in ssrs which of the following  cahrt compontes would you use for grouping the numerical values in chart--category axis
-15.in ssrs whch of the following expression cab be used to access the value of parameter called department?----parameters!Department.value
-16.consider the following  scenario 
-   ssrs report contains the feids:empno,empname,sal empname hasleading spaces---ltrim
-17.in ssrs  which function needs to be used to change the display format of the date time value---format
-18.which data storage mechanism  does ssrs services used to  store the deploy reports and metadata----sql server
-19.UPPER(SUBSTRING(NAME(1,1))!='A'-------------THE EXP RETRUNS TRUE IF THE FRST CHARACTER IN THE name  COLUMN IS A OR a
-20.sonakshi needs logical operator whose sal is in range 1000-60000------between
-21.what does @ @ error store---------status of a last sql stmt
-22.which of the following data regions in ssrs can be used to provide similar data functionality to cross tab and pivot table---matrix
-23.a line chart has been created in ssrs what is the cahnge to be done  to change into column chart---select change chart type as column chart
-24.in  ssrs the user wants to display the current userid in report header how can this be done?----drag a text box(=user!userid).....(1 nad 3)
-25.in ssrs the default security extension is based on which authentication>----windows

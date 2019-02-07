@@ -1,0 +1,107 @@
+1. In python ----------pass
+2. In python read a text from a file n every line into a new element -------- read lines
+3.------- are often used in review inspection ----- check list
+4.how do u display hidden files in unix ---- ls -a
+5.which of the following views can create the new hirerchy -- report view
+6.what are the options in pbi u find to pubish --- except export excel
+7.in python what is treu about a variable name -- variable with unlimited length - true, _ and & are only special varaibles allowed ---- true
+8. diff ways to create list - 
+9.QMS - Quality MAnagement SYS
+10. how to print along with the line numbers in unix ---- nl filename
+11. How many positional arguments in unix ------ ($0-file name,$?-exit Status of command,$#- Total number of arguments passed)
+12. After creation of a file, i want to know which group does the file belongs to---- ls -l
+13. Static and dynamic testing---- review without execution of code and execute a piece of code n test respectively
+14.  SDLC n diff stages-- planning , Analysis , implementation n maintanance 
+15. how to declare a constant variable in unix -- declare read only
+16.print long listing of files ----- ls -l
+17.Print file names in descending order ------- ls -r
+18. how to capture an error message of command in unix --- cat F1 2 > f2
+----> cat <F1 is input redirection  ,cat F1 > f2
+19. exit stauts of unix - $?
+20. which command will actually copy and display the standard input and standard output to a file -- tee command
+21. Non fulfillment of customer requirement is called as ---- defect
+22. implemntation of defect product leads to risk
+
+
+
+
+
+
+
+
+
+
+
+
+
+23.Left outer join n right outer join 
+24. i/p n o/p parameters which v can pass --- sp
+25. remove the identified test db -- use master; go drop database testdata go
+26. remove trigger from advworks --- 
+-- statemnt csnt be used for sql server transactions-- begin work
+-- fetch next -- fetchs the next record, used in cursors
+-- primary key constarints to sql server -- only one comnstraints - T	no clustured index on the table -t
+	not null -f , non clustARD is used if there are no clusturd - f.
+-- command copies to standard commaand -- tee 
+-- command change mode 644 file name - read write for owner, read for group, read for others
+--  diff for for loop and forr each container -- based on condition its for loop, fopr each row tranasformation its for each.
+-- rebame file name in ssis -- file system task
+-- string convesion -- character map
+-- look up in flatfile -- cache transform
+-- ftp--> go to -- and change to true,  what will b done -- 
+-- merge tranfomation -- join two tables using sort
+-- merge component requires data to be sorted -- true
+-- data viewr distaplays data bw -- dataflow
+-- automate and schedule -- sql agent server
+-- no.of executable files -- no. of process +2 
+-- tsqql for multiple  values parameter in ssrs -- select * from emp where departmeent in (@parameter)
+-- not a valid renduring format in ssrs -- ms access
+-- display the ratio -- pie chart
+-- date add d - 1 -- yesterday's date 
+-- direct query connection
+-- two types of contexts in dax -- row and filter
+-- default mode for interactions --- drill mode on 
+--  dimension not present -- linear line
+--  export to pdf only avalable in power bi - t , export to pdf doesnt export custom visuals- F, 
+-- adhoc
+-- meaning of waterfall chart--also called as bridge chart and tells abt ups and downs of data
+-- operation perform with daashboard -- share, print, duplicate, refresh
+-- following actions in desktop not in service -- creating relationships in des, create mweasure and cal in des , dashboard in service, subscribe to reports in service
+-- pbi subscr create app workspace -- pro version 
+-- two scheduled refresh are available through power  bi serrvice - daily , weekly
+-- publish 2 web
+-- 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,51 @@
+1.whch stmt is used in pythom which is used for syntheticaly correct but command shld not be excute----pass
+2.in order to read a text from a file and convert every line to new element in a ist---readlines
+3.whch argument u would use in python func to obatian a dictionary of all the names passed---key word arguments
+4.how to rename the table in sql server from schema sales----sp_rename oldname to newname
+5.left outterjoin----all the data  from left table and matched output from right table
+6.in whch of the sql server databaseobject we can pass input and output paramaetres---stored procedures
+7.identity correct  sql stmt to remove the database which is testdata----use master go drop databasename testdata go
+8.what is trigger in sql server database
+9.how to remove a particular trigger from adventure works 2012 database---use adventure works go delete triger triggername
+10.whch of the fllwng stmt cannot be used with sql server transanctions---begin work
+11.wt is fetchnext---if scroll option is not available
+12.whch of the stmt  regarding primary key in sql server:table can contain only one p.k(t)
+                                                         p.k all columns must be notnull(f)
+                                                        default indexes is  non cluster(f)
+13.whch command will actually copy  the data of standard input and standard output to a file----tee
+14.whch command dat chmod 64451----4-read 1-excute 2-write
+ssis
+
+1.wt is difference btw for lopp and eachloop container----
+2.how to rename a file using ssis task---file system task
+3.character transformation is neccesary for----converstions as upeercase to lowercase
+4.how to use the lookup transformation in flatfiles?---cahche transformation
+5.what is mean by conditionalsplit----based on conditions we split datta to diff destinations
+6.when u go to file system task property and u change  delay validation property value to true what happens wen u change---
+7.wt is merge transformation---
+8.merge componet requires data to be stored---true
+9.data viewres display the data btw two components in the----dataflow
+10.how can we automate and schedule the sqlserver----sql server agent
+11.wt is the max ecutable concurrent package level----no of ecutable files.....
+12. how would u write tsql query for multipe value parameter in ssrs-----select * from  tablename where deptni in @parameter
+13.which of the fowng is not valid rendaring format in ssrs---microsoft axis
+14.piechart is used for--ratio data
+15.how can we display yesterdays date in ssrs--dateadd(d-1,today)
+16.whch of the fllwng is not a valid phase in reporintin lifecycle---administration
+  pbi
+1.if pbi desktop acceleratley import table headers as row------use frst row as headers
+2.if the data is changing frequently in relational datasource and the report 
+in pbi must reflect to the latest data whch of the fllwng shld be used----direct query connection mode
+3.wt is the 2 types of context in dax---raw,filter
+4.whch of the fllwng is the default interaction mode for  -----drill mode on
+5.whch of the fllwng dynamic reference line is not present in clustered column chart---linear
+6.whch of the stmt is true regarding exporting pdf in pbi:export to pdf feature is only available in pbi service(t)
+                                                          export to pdf feature doesnot export custom visuals(f)
+7.whch of the fllwng correction mode is not availble in pbi desktop----adhoc
+8.wt is waterfall chart----the changes across time series
+9.wt are the operation u can peform with dashboard pbi service--share,publish to web,dupicate,print,refresh titles
+10.how can we  create hierarchy in pbi service------we cannot be created but in pbi desktop we can create
+11.whch of the fllwng actions can performed in pbi desktop but not in pbi service---creating relation ships, creating measures calculated columns
+12.in wch pbi subscrition user can create app workspace and share the reports and dashboards with other users---- pbi pro,pbi free subscription,pbi beta,pbi pdf
+13 whch 2 scheduled refresh options are available to the datasets inpbi---daily,weekly
+14.whch are the fllwng report optionin pbi service allow users to access the internet----publish to web

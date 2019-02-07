@@ -1,0 +1,107 @@
+---->Containers, - 3 
+---->Execute SQL Task, 
+---->Script Component: Apply multiple transformations to data instead of using multiple transformations in the data flow.
+                  For example, a script can add the values in two columns and then calculate the average of the sum.
+---->Script task, 
+---->FTP task: Copying directories and data files from one directory to another, before or after moving data,
+          and applying transformations to the data. 
+---->Bulk insert task,
+---->Expression task,
+---->checkpoints in SSIS, :When a package fails, the Checkpoint file remains on disk 
+                      and can be used the next time the package is executed to restore the values of package variables 
+                      and restart at the point of failure
+---->Execute Package task,
+---->Data profiling task, 
+---->File system task,
+---->Aggregate, Conditional split, 
+---->data conversion,
+---->Look up,
+---->Merge, 
+---->Multicast,
+---->OLE DB Command, 
+---->Row count, 
+---->SCD, 
+---->Sort, 
+---->Union all,
+---->Audit, 
+---->cache,
+---->Character Map, 
+---->Copy column, 
+---->Fuzzy grouping and fuzzy Lookup, 
+---->import column, both sampling, pivot
+
+----> fuzzy lookup
+----> unique values : sorting 
+----> Types of cache used
+
+
+slowly changing Dimension:
+
+Type 1: updation in done(if no history is required) 
+
+primay key in source table can never be used as seroagate key in Dimension Table
+
+* Type 2: new row is added with history 
+Type 3: partial history is maintained (current and present)
+
+----> package deployement and project deployement are available in ssis
+----> check points different values never,ifexist,always
+----> etl tools: informatica,talend,ssis
+----> max concurrent executables in ssis : -1
+----> merging : yes
+---->  diff bw merge nad merge join
+----> evaluating and doing transformations (yes) using data conversions
+----> conditional split
+----> multicast 
+
+
+
+
+----> OLTP denormalized,data warehouse,
+---->  Conceptual,physical,logical data modelling
+---->  simple in OLTP , complex in OLAP
+---->  lookup into flatfile : By using cache
+---->  if package fails : 3types 
+                         1.constraint
+---->  single and cross filter in power bi
+---->  hirarchies are done in report view
+----> many to many is not supported in power bi
+---->  types of filters : page level,report level
+----> report sharing after publishing 
+---->  if u click on the dash borad a report then it redirects to report from where it came.
+---->  bypass prepare in OLEDB comand 
+---->  options for checkpoint : never, always
+---->  bulk insert task : text file, we cannot perform transformations into it.
+---->  FTP task , execute process task
+---->  how to change the date and time into the respective region in power BI
+---->  merge(types of joins)  and append
+---->  split by coloumn : delimiter and number of characters
+---->  At each occurence, by using delimiter results into more than one column
+---->  Creating a relationship or no relationship bw tables which leads the coloumn table of incorrect data( it show right data even though it is wrong)
+----> Parameters in power BI 
+
+----> ".pbit" is the extension of template or parameter which we load
+----> Types of containers
+----> import, Direct query
+----> if there are null values we perform fill operation above or below
+----> Shcedule refresh
+----> instead of sort, aggregate transformation is performed (inorder to remove duplicates) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
